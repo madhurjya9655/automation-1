@@ -16,9 +16,9 @@ try:
     # Connect to the SMTP server
     server = sm.SMTP("smtp.gmail.com", 587)
     server.starttls()
-    server.login("bitumixkanika@gmail.com", "kedv sgdw brai ubez")
+    server.login("sender email address", "password")
 
-    from_ = "bitumixkanika@gmail.com"
+    from_ = "sender email address"
     subject = "This is just a testing message"
 
     # Prepare the email content
